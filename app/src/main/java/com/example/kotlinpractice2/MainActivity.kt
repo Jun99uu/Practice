@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
         val email:String = "${binding.email.text}";
         val password:String = "${binding.password.text}";
         val name:String = "${binding.name.text}";
-        Log.d(email, password);
 
         binding.post.setOnClickListener{};
         binding.get.setOnClickListener{};
